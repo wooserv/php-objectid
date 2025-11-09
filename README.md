@@ -1,4 +1,4 @@
-# WooServ PHP ObjectId
+# PHP ObjectId
 
 **Fast, lightweight MongoDB-style ObjectId generator for PHP.**
 
@@ -21,5 +21,15 @@ $id = ObjectId::generate();
 if (ObjectId::isValid($id)) {
     echo "Timestamp: " . date('Y-m-d H:i:s', ObjectId::getTimestamp($id));
 }
-
 ```
+
+## Tests
+```bash
+composer test
+```
+
+---
+
+## License
+
+MIT © [WooServ](https://www.wooserv.com/)
